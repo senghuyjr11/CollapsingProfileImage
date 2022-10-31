@@ -1,13 +1,10 @@
 package com.example.collapsingprofileimage
 
-import android.R
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.collapsingprofileimage.databinding.ActivityMainBinding
 import com.google.android.material.appbar.AppBarLayout
-import com.google.android.material.imageview.ShapeableImageView
 import kotlin.math.abs
-
 
 class MainActivity : AppCompatActivity(), AppBarLayout.OnOffsetChangedListener {
 
